@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24120D3E1F0A93E60085ED5D /* customScoreCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24120D3D1F0A93E60085ED5D /* customScoreCellTableViewCell.swift */; };
+		24120D401F0A94560085ED5D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24120D3F1F0A94560085ED5D /* TableViewController.swift */; };
 		24A5875A1F052A3600EBC72B /* De.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A587591F052A3600EBC72B /* De.swift */; };
 		24A5875C1F0552F100EBC72B /* caseScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A5875B1F0552F100EBC72B /* caseScore.swift */; };
 		24CAFF791F04F4EA00FB3C30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CAFF781F04F4EA00FB3C30 /* AppDelegate.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24120D3D1F0A93E60085ED5D /* customScoreCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customScoreCellTableViewCell.swift; sourceTree = "<group>"; };
+		24120D3F1F0A94560085ED5D /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		24A587591F052A3600EBC72B /* De.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = De.swift; sourceTree = "<group>"; };
 		24A5875B1F0552F100EBC72B /* caseScore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = caseScore.swift; sourceTree = "<group>"; };
 		24CAFF751F04F4EA00FB3C30 /* Yahtzee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yahtzee.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +111,8 @@
 			children = (
 				24CAFF781F04F4EA00FB3C30 /* AppDelegate.swift */,
 				24CAFF7A1F04F4EA00FB3C30 /* ViewController.swift */,
+				24120D3F1F0A94560085ED5D /* TableViewController.swift */,
+				24120D3D1F0A93E60085ED5D /* customScoreCellTableViewCell.swift */,
 				24CAFF7C1F04F4EA00FB3C30 /* Main.storyboard */,
 				24A587591F052A3600EBC72B /* De.swift */,
 				24A5875B1F0552F100EBC72B /* caseScore.swift */,
@@ -276,8 +282,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				24CAFF7B1F04F4EA00FB3C30 /* ViewController.swift in Sources */,
+				24120D401F0A94560085ED5D /* TableViewController.swift in Sources */,
 				24CAFF811F04F4EA00FB3C30 /* Yahtzee.xcdatamodeld in Sources */,
 				24A5875A1F052A3600EBC72B /* De.swift in Sources */,
+				24120D3E1F0A93E60085ED5D /* customScoreCellTableViewCell.swift in Sources */,
 				24CAFF791F04F4EA00FB3C30 /* AppDelegate.swift in Sources */,
 				24A5875C1F0552F100EBC72B /* caseScore.swift in Sources */,
 			);
